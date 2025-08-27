@@ -15,15 +15,17 @@ ORDER BY
 SELECT 
   b.treatment_id,
   p.insurance_provider,
-  b.amount
+  b.amount,
+  b.payment_status
 FROM hospital-management-470216.healthcare_data.billing b
 JOIN hospital-management-470216.healthcare_data.patients p
   ON b.patient_id = p.id
-WHERE b.payment_method = "Insurance"
+WHERE b.payment_method = "Insurance" AND b.payment_status = "Failed"
 GROUP BY 
   p.insurance_provider,
   b.treatment_id,
-  b.amount
+  b.amount,
+  b.payment_status
 ORDER BY
   p.insurance_provider 
 
