@@ -56,6 +56,17 @@ Efficient hospital management not only require high-quality medical care but als
 - Physiotherapy treatment resulted in the highest claim denial rate (45.45%) 
 ![Health Insurance Dashboard](https://github.com/jaylenroope-afk/Hospital-Management-/blob/main/Tableau/png/Health%20Insurance%20Dashboard.png?raw=true)
 
+## Recommendations
+
+### Minimizing Appointment Cancellations and No-Shows
+- Send automated emails or text messages to remind the patients about their upcoming appointment to reduce no-shows
+- There were no patterns between department and cancellation rates. Some physicians had much higher cancellation rates compared to other physicians within the same department. For example, in the Oncology department, Dr. Robert Davis had a cancellation rate of 38.46% which was the highest out of all physicians while Dr. Linda Wilson had a cancellation rate of only 15.79%. The hospital administration can investigate the underlying causes such as physician availability, how they communicate with patients, and quality of care to reduce unncessary cancellations
+
+### Insurance Denials
+- Compare insurance claim denials with regional and national benchmarks to determine whether it was an internal issue or national healthcare trend causing these high denial rates. If the hospital is seeing higher denial rates compared to others, it could indicate an internal issue such as documentation errors or poor staff training. The hospital should revise their training to minimize these errors such as refreshing the staff on the accurate medical coding (ICD/CPT) used in claim documentation
+- HealthIndia and WellnessCorp were the highest denying providers. The administration should discuss with these insurers to understand the denial reasons
+- Physiotherapy (45%) and ECG (37.5%) had the highest denial rates. Investigate if the rates were linked to pre-authorization or coverage limits related to the specific treatment.
+
 ## Limitations
 - The dataset is synthetic as hospital management data is often kept confidential due to HIPPA
 - Data is only given in 2023 so it is difficult to make conclusions on trends
