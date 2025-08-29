@@ -21,6 +21,16 @@ Efficient hospital management not only require high-quality medical care but als
 - Age Distribution of Patients- helps understand the population is served
 - Total Patients- how many patients were served throughout the year
 
+## Insights Deep-Dive
+### Appointments Dashboard
+*Looking at how busy the hospital is throughout the year and % of patients that show up to their appointment*
+
+
+
+## Limitations
+- The dataset is synthetic as hospital management data is often kept confidential due to HIPPA
+- Data is only given in 2023 so it is difficult to make conclusions on trends
+- There are only 200 rows in the dataset so making statistically significant conclusions are difficult  
 
 ![ERD](https://github.com/jaylenroope-afk/Hospital-Management-/blob/main/ERD%20for%20Healthcare%20Data%20(1).png?raw=true)
 *Hospital Management ERD*
