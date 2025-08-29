@@ -1,10 +1,24 @@
 # Hospital Management Data Analysis Project
 
 ## Project Background
-Efficient hospital management not only require high-quality medical care but also optimized administrative and financial operations. Hospitals often deal with frequent patient cancellations, no-shows, and also insurance claim denials which affects revenue. In this project, I conducted an in-depth analysis of hospital management data to deliver key insights and recommendations on how the hospital administration can improve operational efficiency. Key KPIs
+Efficient hospital management not only require high-quality medical care but also optimized administrative and financial operations. Hospitals often deal with frequent patient cancellations, no-shows, and also insurance claim denials which affects revenue. In this project, I conducted an in-depth analysis of hospital management data to deliver key insights and recommendations on how the hospital administration can improve operational efficiency. 
+
+## Tools and Skills Used
+- Excel (Data Cleaning, Sorting/Filtering, Calculations for KPIs, Data Manipulation)
+- BigQuery SQL (JOINs, CTEs, Variable Creation)
+- Tableau Public (Data Visualizations, Dashboards)
+- GitHub (Documentation, Delivering Key Insights and KPIs, Recommendations)
+- Lucid App (Designing ERD)
+
+## Project Structure
+- /README.md - What you are looking at right now! This provides a description of the project, addressing KPIs, dashboards, and recommendations to stakeholders.
+- /data - Contains raw and processed data.
+- /Tableau - Includes png and twbx files containing important dashboards.
+- /queries - Includes queries that were used to pull data as well as join the data tables. BigQuery SQL was used.  
+- /ERD - Entity-Relationship Diagram that shows how data tables relate to one another and how they were joined in SQL. 
 
 ## Analysis Summary
-
+The hospital served 200 patients with an average age of 41 in 2023. It is unknown about other departments but the dataset only contained data on 3 departments including: Pediatrics, Oncology, and Dermatology. The three departments collectively generated revenue of $551,249.85. Pediatrics had the highest revenue which was $258,937.83 and had 98 appointments. Dr. Sarah Taylor who specializes in Dermatology, had the most appointments (29) and generated the most revenue which was $82,696.48. April was the busiest month and saw 25 appointments while September was the least busiest month and saw only 11 appointments. No seasonal trends were observed. Tuesdays and Wednesdays were the busiest days throughout the year. Two of the biggest issues that were hurting revenue included high cancellation and no-show rates of patients and insurance claim denials. The cancellations and no-shows disrupted patient flow where patients in need could have been served while insurance claim denials resulted in $62,597 in financial losses. Only 30.9% showed up to their appointments which indicates that there is a significant issue in communication with the patients. This issue resulted in about a million dollars in potential losses. 33% of patients who paid with insurance had their claims denied, with certain providers such as HealthIndia and MedCare Plus had disproportionally higher denial rates (60% and 42.86% respectively). Dashboards that address the key performance indicators are included as well as recommendations on addressing major issues and improving hospital operational efficiency.
 
 
 
@@ -40,8 +54,8 @@ Efficient hospital management not only require high-quality medical care but als
 ### Patient Flow and Operations Dashboard
 *Measuring financial performance across the doctors and departments, doctor utilization, and patient demographics*
 
-- 200 patients were served with the average age being 41
-- The total revenue across all the doctors was $551,249.85
+- 200 patients were served with the average age being 41 within the Pediatrics, Oncology, and Dermatology departments
+- The total revenue across all the physicians was $551,249.85
 - Dr. Sarah Taylor had the most appointments which was 29 and brought in $82,696.48 in revenue
 - Pediatrics had the most appointments which was 98 and brought in $258,937.83 in revenue
 ![Patient Flow and Operations Dashboard](https://github.com/jaylenroope-afk/Hospital-Management-/blob/main/Tableau/png/Patient%20Flow%20&%20Operations%20Dashboard.png?raw=true)
@@ -77,10 +91,14 @@ Efficient hospital management not only require high-quality medical care but als
 - For faster transactions, encourage patients to pay via credit card instead of cash. 31% of patients pay via cash.
 
 ## Limitations
-- The dataset is synthetic as hospital management data is often kept confidential due to HIPPA
-- Data is only given in 2023 so it is difficult to make conclusions on trends
-- There are only 200 rows in the dataset so making statistically significant conclusions are difficult  
+- The dataset was synthetic as hospital management data is limited due to HIPPA.
+- Data was only given in 2023 so it was difficult to make conclusions on trends
+- There were only 200 rows in the dataset so making statistically significant conclusions are difficult
+- The hospital only had 3 departments: Oncology, Pediatrics, and Dermatology but realistically a hospital would have a many more departments
 
-
+## Dataset
+- Data was found on [Kaggle](https://www.kaggle.com/datasets/kanakbaghel/hospital-management-dataset?select=treatments.csv) by *Kanek Baghel*
+- Contained were 5 csv files: appointments, billing, doctors, patients, and treatments
+- The raw data can be found [here](https://github.com/jaylenroope-afk/Hospital-Management-/tree/main/data/raw) 
                                                                                   
-Analyzing patient flow, cancellations, and insurance trends to improve operational efficiency in the hospital 
+
