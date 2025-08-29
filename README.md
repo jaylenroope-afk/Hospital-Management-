@@ -63,9 +63,18 @@ Efficient hospital management not only require high-quality medical care but als
 - There were no patterns between department and cancellation rates. Some physicians had much higher cancellation rates compared to other physicians within the same department. For example, in the Oncology department, Dr. Robert Davis had a cancellation rate of 38.46% which was the highest out of all physicians while Dr. Linda Wilson had a cancellation rate of only 15.79%. The hospital administration can investigate the underlying causes such as physician availability, how they communicate with patients, and quality of care to reduce unncessary cancellations
 
 ### Insurance Denials
-- Compare insurance claim denials with regional and national benchmarks to determine whether it was an internal issue or national healthcare trend causing these high denial rates. If the hospital is seeing higher denial rates compared to others, it could indicate an internal issue such as documentation errors or poor staff training. The hospital should revise their training to minimize these errors such as refreshing the staff on the accurate medical coding (ICD/CPT) used in claim documentation
-- HealthIndia and WellnessCorp were the highest denying providers. The administration should discuss with these insurers to understand the denial reasons
+- Compare insurance claim denials with regional and national benchmarks to determine whether it was an internal issue or national healthcare trend causing these high denial rates. If the hospital is seeing higher denial rates compared to others, it could indicate an internal issue such as documentation errors or poor staff training. The hospital should revise their training to minimize these errors such as refreshing the staff on the accurate medical coding (ICD/CPT) used in claim documentation.
+- HealthIndia and WellnessCorp were the highest denying providers. The administration should discuss with these insurers to understand how to provide clearer documentation.
 - Physiotherapy (45%) and ECG (37.5%) had the highest denial rates. Investigate if the rates were linked to pre-authorization or coverage limits related to the specific treatment.
+- To investigate denial reasons, my team may request a dataset containing more thorough health insurance data from the administration to provide a more detailed dashboard. 
+
+### Workload & Patient Volume Management
+- Tuesdays and Wednesdays were the busiest days throughout the year. Based on this trend, balance staffing schedules by scheduling more physicians and nurses on these high-volume days.
+- If the patient cancellations and no-shows are mainly due to scheduling issues then readjust hospital hours and shifts for physicians.
+- Reallocate resources depending on which departments are more busy. Allocate additional resources to the Pediatric department to support its high patient volume.
+
+### Revenue & Payments
+- For faster transactions, encourage patients to pay via credit card instead of cash. 31% of patients pay via cash.
 
 ## Limitations
 - The dataset is synthetic as hospital management data is often kept confidential due to HIPPA
