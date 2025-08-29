@@ -78,7 +78,7 @@ The hospital served 200 patients with an average age of 41 in 2023. It is unknow
 
 ### Insurance Denials
 - Compare insurance claim denials with regional and national benchmarks to determine whether it was an internal issue or national healthcare trend causing these high denial rates. If the hospital is seeing higher denial rates compared to others, it could indicate an internal issue such as documentation errors or poor staff training. The hospital should revise their training to minimize these errors such as refreshing the staff on the accurate medical coding (ICD/CPT) used in claim documentation.
-- HealthIndia and WellnessCorp were the highest denying providers. The administration should discuss with these insurers to understand how to provide clearer documentation.
+- HealthIndia and WellnessCorp were the highest denying providers. The administration should discuss with these insurers to understand how to provide clearer documentation and their policies.
 - Physiotherapy (45%) and ECG (37.5%) had the highest denial rates. Investigate if the rates were linked to pre-authorization or coverage limits related to the specific treatment.
 - To investigate denial reasons, my team may request a dataset containing more thorough health insurance data from the administration to provide a more detailed dashboard. 
 
