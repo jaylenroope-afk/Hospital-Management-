@@ -12,10 +12,10 @@ Efficient hospital management not only require high-quality medical care but als
 
 ## Project Structure
 - /README.md - What you are looking at right now! This provides a description of the project, addressing KPIs, dashboards, and recommendations to stakeholders.
-- /data - Contains raw and processed data.
-- /Tableau - Includes png and twbx files containing important dashboards.
-- /queries - Includes queries that were used to pull data as well as join the data tables. BigQuery SQL was used.  
-- /ERD - Entity-Relationship Diagram that shows how data tables relate to one another and how they were joined in SQL. 
+- /[data](https://github.com/jaylenroope-afk/Hospital-Management-/tree/main/data) - Contains raw and processed data.
+- /[Tableau](https://github.com/jaylenroope-afk/Hospital-Management-/tree/main/Tableau) - Includes png and twbx files containing important dashboards.
+- /[queries](https://github.com/jaylenroope-afk/Hospital-Management-/tree/main/queries) - Includes queries that were used to pull data as well as join the data tables. BigQuery SQL was used.  
+- /[ERD](https://github.com/jaylenroope-afk/Hospital-Management-/blob/main/ERD%20for%20Healthcare%20Data%20(1).png) - Entity-Relationship Diagram that shows how data tables relate to one another and how they were joined in SQL. 
 
 ## Analysis Summary
 The hospital served 200 patients with an average age of 41 in 2023. It is unknown about other departments but the dataset only contained data on 3 departments including: Pediatrics, Oncology, and Dermatology. The three departments collectively generated revenue of $551,249.85. Pediatrics had the highest revenue which was $258,937.83 and had 98 appointments. Dr. Sarah Taylor who specializes in Dermatology, had the most appointments (29) and generated the most revenue which was $82,696.48. April was the busiest month and saw 25 appointments while September was the least busiest month and saw only 11 appointments. No seasonal trends were observed. Tuesdays and Wednesdays were the busiest days throughout the year. Two of the biggest issues that were hurting revenue included high cancellation and no-show rates of patients and insurance claim denials. The cancellations and no-shows disrupted patient flow where patients in need could have been served while insurance claim denials resulted in $62,597 in financial losses. Only 30.9% showed up to their appointments which indicates that there is a significant issue in communication with the patients. This issue resulted in about a million dollars in potential losses. 33% of patients who paid with insurance had their claims denied, with certain providers such as HealthIndia and MedCare Plus had disproportionally higher denial rates (60% and 42.86% respectively). Dashboards that address the key performance indicators are included as well as recommendations on addressing major issues and improving hospital operational efficiency.
