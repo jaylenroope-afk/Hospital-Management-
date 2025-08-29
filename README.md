@@ -6,7 +6,7 @@ Efficient hospital management not only require high-quality medical care but als
 ## Analysis Summary
 
 ![ERD](https://github.com/jaylenroope-afk/Hospital-Management-/blob/main/ERD%20for%20Healthcare%20Data%20(1).png?raw=true)
-                                                                                  *Hospital Management ERD*
+*Hospital Management ERD*
 
                                                                                   
 Analyzing patient flow, cancellations, and insurance trends to improve operational efficiency in the hospital 
