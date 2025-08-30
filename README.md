@@ -49,7 +49,7 @@ The hospital served 200 patients with an average age of 41 in 2023. It is unknow
 - Only 30.9% of patients attended their scheduled appointments, leading to disruptions in scheduling and significant revenue loss
 - Dr. Robert Davis and Dr. Jane Davis had the highest cancellation rates at 38.46% and 38.10% respectively, investigating what was causing these high cancellation rates are key
 ![Appointments Dashboard](https://github.com/jaylenroope-afk/Hospital-Management-/blob/main/Tableau/png/Appointment%20Cancellations%20and%20No-Shows%20Dashboard.png?raw=true)
-*The dashboard is interactive on Tableau Public or on a .twbx file*
+*The dashboard is interactive on [Tableau Public](https://public.tableau.com/app/profile/jaylen.roope/vizzes) or on a .twbx file*
 
 ### Patient Flow and Operations Dashboard
 *Measuring financial performance across the doctors and departments, doctor utilization, and patient demographics*
